@@ -1,0 +1,4 @@
+*.fasta
+*.fna
+__pycache__
+

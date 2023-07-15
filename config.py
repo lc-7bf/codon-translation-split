@@ -1,0 +1,8 @@
+CODING_FILE = "res/codon.csv"
+INPUT_FILE = "input/TAIR10_cds_20101214.fasta"
+FRAME1_OUTPUT_FILE = "output/Frame1.fasta"
+FRAME2_OUTPUT_FILE = "output/Frame2.fasta"
+FRAME3_OUTPUT_FILE = "output/Frame3.fasta"
+FRAME1_SPLIT_OUTPUT_FILE = "output/Frame1_split.fasta"
+FRAME2_SPLIT_OUTPUT_FILE = "output/Frame2_split.fasta"
+FRAME3_SPLIT_OUTPUT_FILE = "output/Frame3_split.fasta"
