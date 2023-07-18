@@ -43,7 +43,7 @@ class fastaHandler:
         f3_file = open(conf.FRAME3_OUTPUT_FILE, "a+")
         
         with open(conf.INPUT_FILE, "r") as fin:
-            protein :str = fin.readline()
+            protein :str = fin.readline().upper()
             proteinFASTA = ""
             f1_proteinHeader = ""
             f2_proteinHeader = ""
@@ -74,7 +74,7 @@ class fastaHandler:
 
                     proteinFASTA += protein.strip('\n')
                 
-                protein = fin.readline()
+                protein = fin.readline().upper()
                 
             if len(proteinFASTA) > 0:
                 protein_3_frame = tr.transcode.nucleotides3FramesToAAs(proteinFASTA)
